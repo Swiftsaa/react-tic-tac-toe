@@ -108,6 +108,7 @@ function App() {
       <GameOver gameState={gameState}/>
       <Reset gameState={gameState} onReset={handleReset}/>
       <br />
+      <hr />
     </div>
   );
 }

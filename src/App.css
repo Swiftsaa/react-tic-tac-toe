@@ -115,3 +115,7 @@ h1 {
 .reset-button:hover {
   background-color: hsl(198, 100%, 25%);
 }
+
+hr {
+  border: 5px solid #0074a6;
+}

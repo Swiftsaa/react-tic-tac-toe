@@ -93,3 +93,25 @@ h1 {
   left: 5%;
   transform: skewY(-45deg);
 }
+
+.game-over {
+  text-align: center;
+  border: 5px dashed #5468ff;
+  padding: 10px;
+  margin-top: 50px;
+  font-size: 1.5em;
+}
+
+.reset-button {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #0074a6;
+  color: white;
+  width: 100%;
+  font-size: 1.5em;
+  transition: .5s;
+}
+
+.reset-button:hover {
+  background-color: hsl(198, 100%, 25%);
+}

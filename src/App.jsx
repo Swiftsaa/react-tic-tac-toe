@@ -107,6 +107,7 @@ function App() {
       <Board playerTurn={playerTurn} tiles={tiles} onTileClick={handleTileClick} strikeClass={strikeClass}/>
       <GameOver gameState={gameState}/>
       <Reset gameState={gameState} onReset={handleReset}/>
+      <br />
     </div>
   );
 }
